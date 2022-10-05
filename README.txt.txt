@@ -1,1 +1,0 @@
-Simple website number guessing game made by @brenokleine on github
