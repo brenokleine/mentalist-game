@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    font-style: oblique;
+    color: whitesmoke;
+}
+
+a:hover{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    color: black;
+    padding: 2px;
+    
+}
+
+#botao{
+    font-size: 18px;
+    border-radius: 12px;
+    height: 40px;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#botao:hover{
+    cursor: pointer;
+    background-color: rgb(118, 116, 226);
+    color: whitesmoke;
+}
+
+#botao:active{
+    background-color: rgb(86, 84, 155);
+}
