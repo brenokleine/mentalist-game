@@ -48,6 +48,8 @@ function processoChute(){
 
 function chute(){
 
+    document.getElementById("input").focus();
+
     var result = processoChute();
 
     if(result == true){
